@@ -2,8 +2,8 @@ name = "medium"
 compatibility_date = "2023-12-01"
 
 [vars]
-DATABASE_URL = ""
-MT_SECRET = ""
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNGQzNThhNmEtZDc1Zi00ZmZlLWE0ZTktYjllOTI5MjcyMDI1IiwidGVuYW50X2lkIjoiZmE2ODYxOTBkNWQ1ZTEyZTljMjhiNjhjNmQ3MmM1YjkxMmVhMzlmZTk5ZDU3NjZmYTFmYzM5NjEwN2EwYWNiZiIsImludGVybmFsX3NlY3JldCI6IjI4NGEzZWUwLTkxMmQtNDAwOS05MDZkLWUzNTY0ZmEzN2JlYyJ9.Ipg-5QH5z8W3lOyM-3_zOPk5TSAM_1ha3W5HJu33F8w"
+JWT_SECRET = "asdsadassadsafasfqaeewqa"
 
 [[kv_namespaces]]
 binding = "MY_KV_NAMESPACE"
