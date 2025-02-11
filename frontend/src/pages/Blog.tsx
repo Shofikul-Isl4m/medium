@@ -1,9 +1,11 @@
+import { Appbar } from "../components/Appbar"
+
 export const  Blog = () => {
 
   return <div>
 
 
-  Blog
+  <Appbar/>
 
   
 
