@@ -24,7 +24,7 @@ export const Fullblog =() =>{
 
  return <div className="  grid grid-cols-12 break-words ">
       
-      <div className="  col-start-2 col-span-6 p-12 border-r-2 ">
+      <div className="  col-start-2 col-span-6 p-12 ">
         {blog? <div className="text-5xl font-extrabold ">
             {blog.title}
             </div> : "not find"}

@@ -48,7 +48,7 @@ return <Link to = {`/Blog/${id}`}><div className="  border-b-2 border-slate-200 
 
  export const  Avatar = ({name , size  }:{ name:string,size ?: number}) => {
     return <div>
-    <div className={`relative inline-flex items-center justify-center overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600 w-${size} h-${size}`}>
+    <div className={`relative inline-flex items-center justify-center overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600 w-6 h-6`}>
     <span className="text-sm text-gray-600 dark:text-gray-300">{name[0]}</span>
 </div>
 </div>
