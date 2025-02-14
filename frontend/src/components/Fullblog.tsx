@@ -47,7 +47,7 @@ export const Fullblog =() =>{
          Author
              <div className="flex ">
                 <div>
-                <Avatar size={10} name ={blog?.author.name || "Anonymous"} /> 
+                <Avatar  name ={blog?.author.name || "Anonymous"} /> 
                 </div>
                 <div>
          <div className=" text-lg ">

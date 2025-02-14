@@ -21,7 +21,7 @@ return <Link to = {`/Blog/${id}`}>
     <div className="  border-b-2 border-slate-200 rounded-md p-4 pb-4  w-screen mt-8 max-w-screen-lg">
    <div className="flex ">
     
-   <Avatar size={8}  name ={authorName}/>   
+   <Avatar   name ={authorName}/>   
    
    <div className="font-extralight pl-2 text-sm fles flex-col justify-center"> 
     {authorName}.
@@ -50,7 +50,7 @@ export function Circle() {
     </div>
 }
 
- export const  Avatar = ({name , size  }:{ name:string,size ?: number}) => {
+ export const  Avatar = ({name  }:{ name:string}) => {
     return <div>
     <div className={`relative inline-flex items-center justify-center overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600 w-6 h-6`}>
     <span className="text-sm text-gray-600 dark:text-gray-300">{name[0]}</span>
