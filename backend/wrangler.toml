@@ -3,15 +3,15 @@ main="src/index.ts"
 compatibility_date = "2023-12-01"
 
 [vars]
-DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiZTVkNWNiMTAtY2NhYi00OTdmLWJjM2QtN2JiNTNkZGJiM2NiIiwidGVuYW50X2lkIjoiZmE2ODYxOTBkNWQ1ZTEyZTljMjhiNjhjNmQ3MmM1YjkxMmVhMzlmZTk5ZDU3NjZmYTFmYzM5NjEwN2EwYWNiZiIsImludGVybmFsX3NlY3JldCI6IjI4NGEzZWUwLTkxMmQtNDAwOS05MDZkLWUzNTY0ZmEzN2JlYyJ9.NxujsPRnEe-WNaR0tt5CoqiUR2NQ8VTMt1q6wbOR9Y0"
-JWT_SECRET="lewarhewarhohr"
+DATABASE_URL=""
+JWT_SECRET=""
 [[kv_namespaces]]
 
 
 
 
 binding = "MY_KV_NAMESPACE"
-id = "0732f227521a4e59a4923fe3e430dd4a"
+id = ""
 
  # [[r2_buckets]]
  #binding = "MY_BUCKET"
