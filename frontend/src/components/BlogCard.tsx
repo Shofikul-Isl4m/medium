@@ -10,8 +10,6 @@ interface   BlogCardProps {
 
 
 
-
-
 export const BlogCard= ({
     authorName,
     title,
@@ -19,7 +17,8 @@ export const BlogCard= ({
     publishedDate,
       id}:BlogCardProps) => {
 
-return <Link to = {`/Blog/${id}`}><div className="  border-b-2 border-slate-200 rounded-md p-4 pb-4  w-screen mt-8 max-w-screen-lg">
+return <Link to = {`/Blog/${id}`}>
+    <div className="  border-b-2 border-slate-200 rounded-md p-4 pb-4  w-screen mt-8 max-w-screen-lg">
    <div className="flex ">
     
    <Avatar size={8}  name ={authorName}/>   
@@ -44,6 +43,11 @@ return <Link to = {`/Blog/${id}`}><div className="  border-b-2 border-slate-200 
 </div></Link>
 
 
+}
+export function Circle() {
+    return <div className="h-1 w-1 rounded-full bg-slate-500">
+
+    </div>
 }
 
  export const  Avatar = ({name , size  }:{ name:string,size ?: number}) => {

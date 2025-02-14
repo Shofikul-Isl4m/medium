@@ -1,6 +1,8 @@
  import { useParams } from "react-router-dom"
 import { useBlog } from "../hooks";
 import { Avatar } from "./BlogCard";
+import { Appbar } from "./Appbar";
+import { Spinner } from "./Spinner";
 
 
 
@@ -16,9 +18,13 @@ export const Fullblog =() =>{
 
 
     if (loading){
+      <Appbar />
   
-      return <div>
-      .....  loading
+      return <div className="  h-screen  flex  justify-center  items-center">
+        
+          <Spinner/>
+       
+      
       </div>
     }
 

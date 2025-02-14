@@ -1,5 +1,5 @@
 import { Appbar } from "../components/Appbar"
-import { BlogCard } from "../components/BlogCard"
+import { Avatar, BlogCard } from "../components/BlogCard"
 import { BlogSkeleton } from "../components/BlogSkeleton";
 import { useBlogs } from "../hooks"
 
@@ -11,6 +11,7 @@ export const  Blogs = () => {
   
   if (loading)
     return <div  mt-16>
+      <Appbar />
 
      <div className="grid grid-col-8">
     <div className="col-start-3 col-end-8"> <BlogSkeleton/></div>
